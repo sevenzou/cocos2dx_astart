@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="8">
+ <tileset firstgid="1" name="tmw_desert_spacing" tilewidth="32" tileheight="32" spacing="1" margin="1">
+  <image source="tmw_desert_spacing.png" width="265" height="199"/>
+ </tileset>
+ <tileset firstgid="49" name="darkness" tilewidth="32" tileheight="32">
+  <image source="darkness.gif" width="32" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="Collidable" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="Background" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt2L0OgjAUQOGqAzGo+BsXZaxMJL7/y3lJNKmkShGwFz3DFwjWeE+aMpgbY3KoNRHTFmbOdwsF8z/MxV5sAxxEqrgj/XAtHf2wPXVcFOyDO9vJ+M9xxX0PnJXth2tjns/yrsXnmjp8ViIT64Z1dHRXNPB1VM+vb8ToSAIs7x2LwPVJhI5sIN/uOA4k1jmxEX+bVgAAAAAAAPyDUsEMNI573n8x1n0J/e+53qe51zrXep/muX+JfXHve1YG3KObG7SmHpA=
+  </data>
+ </layer>
+ <objectgroup name="对象层 1">
+  <object id="7" name="point" x="330" y="174"/>
+ </objectgroup>
+ <layer name="collidable" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAAADg3wAnEAAB
+  </data>
+ </layer>
+</map>
